@@ -1,4 +1,4 @@
-class RockPaperScissors {
+export class RockPaperScissors {
   constructor(username) {
     this.username = username;
          this.score = {
@@ -7,6 +7,7 @@ class RockPaperScissors {
     },
     this.gameHistoryLog = [];
   }
+
 
   /**
    * RETURN: one of the following values (`rock`, `paper`, `scissors`)
